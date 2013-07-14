@@ -1,0 +1,37 @@
+<stationMeteo>
+	<capteur id="an1">
+		<type>A</type>
+		<title>Temperature</title>
+		<valeur>~VTempA~</valeur>
+	</capteur>
+	<capteur id="an2">
+		<type>A</type>
+		<title>Luminosite</title>
+		<valeur>~VLightA~</valeur>
+	</capteur>
+	<capteur id="an3">
+		<type>A</type>
+		<title>Gaz</title>
+		<valeur>~VGazA~</valeur>
+	</capteur>
+	<capteur id="d1">
+		<type>D</type>
+		<title>Humidite</title>
+		<valeur>~VHumiD~</valeur>
+	</capteur>
+	<capteur id="d2">
+		<type>D</type>
+		<title>Temperature</title>
+		<valeur>~VTempD~</valeur>
+	</capteur>
+	<capteur id="I2C1">
+		<type>I2C</type>
+		<title>Pression</title>
+		<valeur>~VBaroI2C~</valeur>
+	</capteur>
+	<capteur id="I2C2">
+		<type>I2C</type>
+		<title>Temperature</title>
+		<valeur>~VTempI2C~</valeur>
+	</capteur>	
+</stationMeteo>

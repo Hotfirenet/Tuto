@@ -1,0 +1,26 @@
+<stationMeteo>
+	<capteur id="an1">
+		<type>A</type>
+		<feature>T</feature>
+		<title>Temperature</title>
+		<valeur>23,2</valeur>
+	</capteur>
+	<capteur id="an2">
+		<type>A</type>
+		<feature>L</feature>
+		<title>Luminosite</title>
+		<valeur>50</valeur>
+	</capteur>	
+	<capteur id="an3">
+		<type>A</type>
+		<feature>G</feature>
+		<title>Gaz</title>
+		<valeur>1000</valeur>
+	</capteur>	
+	<capteur id="d1">
+		<type>D</type>
+		<feature>G</feature>
+		<title>Temperature</title>
+		<valeur>1000</valeur>
+	</capteur>	
+</stationMeteo>

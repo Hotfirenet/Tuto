@@ -1,0 +1,10 @@
+{
+  "modules" : { 
+    "stationMeteoOpenpicus"  : {
+      "description": "Application SARAH pour le projet de station Météo OpenPicus crée Par Hotfirenet",
+      "version"    : "1.0",
+      "ipStationMeteoOpenpicus" : "[FIX ME]",
+	  "port" : "[FIX ME]"
+  }
+}
+}

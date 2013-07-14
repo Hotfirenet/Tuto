@@ -1,0 +1,22 @@
+﻿<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="op" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+ <rule id="op" scope="public">
+   <example>Sarah quelle sont les infos de la sation?</example>
+   <tag>out.action=new Object(); </tag>
+   <item>Sarah</item>
+   <one-of>
+     <item>quelle est la température<tag>out.action.feature="T";</tag></item>
+	 <item>quelle est la luminosité<tag>out.action.feature="L";</tag></item>
+	 <item>quelle est la teneur en gaz<tag>out.action.feature="G";</tag></item>
+	 <item>quelle est le taux d'humidité<tag>out.action.feature="H";</tag></item>
+	 <item>quelle est la pression<tag>out.action.feature="P";</tag></item>
+   </one-of>
+   <item repeat="0-1">
+     <one-of>
+       <item>analogique<tag>out.action.type="A";</tag></item>
+       <item>digitale<tag>out.action.type="D";</tag></item>
+	   <item>I deux C<tag>out.action.type="I2C";</tag></item>
+     </one-of>
+   </item>
+   <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/stationMeteoOpenpicus";</tag>
+ </rule>
+</grammar>

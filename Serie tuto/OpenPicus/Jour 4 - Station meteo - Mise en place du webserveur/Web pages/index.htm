@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ma station m&eacute;t&eacute;o</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link href="css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+		<style type="text/css">
+			.center { text-align: center;}
+			.left { text-align: left;}
+			.right { text-align: right;}
+			.justify { text-align: justify;}
+			.fleft { float: left;} /*-> similar to .pull-left already existing in bootstrap*/
+			.fright { float: right;}  /*-> similar to .pull-right already existing in bootstrap*/
+			.vab { vertical-align: bottom;}
+			.bold { font-weight: bold;}
+			.italic { font-style: italic;}
+			
+			.hero-unit-palette1 {background-color: #B0CC99;}
+			.hero-unit-palette2 {background-color: #677E52;}
+			.hero-unit-palette3 {background-color: #B7CA79;}
+			.hero-unit-palette4 {background-color: #F6E8B1;}
+			.hero-unit-palette5 {background-color: #89725B;}
+			
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<h1 class="center">Ma station m&eacute;t&eacute;o</h1>
+			<div class="hero-unit hero-unit-palette1">
+				<h2 id="an1">Temp&eacute;rature: <span id="valeur-an1"></span> &deg;C</h2>
+			</div>
+			<div class="hero-unit hero-unit-palette2">
+				<h2 id="an2">Luminosit&eacute;: <span id="valeur-an2"></span> %</h2>
+			</div>	
+			<div class="hero-unit hero-unit-palette3">
+				<h2 id="an3">Gaz: <span id="valeur-an3"></span> ppm</h2>
+			</div>
+			<div class="hero-unit hero-unit-palette4">
+				<h2 id="d1">Humidit&eacute;: <span id="valeur-d1"></span> %</p>
+			</div>	
+			<div class="hero-unit hero-unit-palette5">
+				<h2 id="I2C1">Pression: <span id="valeur-I2C1"></span> mPa</p>
+			</div>			
+			<footer>
+				<p>&copy; Hotfirenet pour Giga-Concept </p>
+			</footer>			
+		</div>		
+		<script src="js/jquery.min.js"></script>
+		<script src="js/tache.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
